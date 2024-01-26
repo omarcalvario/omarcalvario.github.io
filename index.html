@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .mi-elemento {
+      width: 100%;
+      max-width: 600px; /* Establece el ancho máximo del elemento */
+      margin: 0 auto;    /* Centra el elemento en la página */
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    @media (max-width: 768px) {
+      /* Estilos adicionales para pantallas más pequeñas */
+      .mi-elemento {
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
+
+  <div class="mi-elemento">
+    <!-- Contenido del elemento -->
     <iframe src="https://drive.google.com/file/d/18WIAqdkkkD07jEjiVrMUQ6qOgD67hSU6/preview" width="640" height="480" allow="autoplay"></iframe>
+  </div>
+
 </body>
 </html>
